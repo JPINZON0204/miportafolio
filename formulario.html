@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/formulario.css">
+    <link rel="stylesheet" href="Icons/all.css">
+    <title>FormularioWeb</title>
+</head>
+<body>
+    <div class="content-main">
+        <nav class="main-nav">
+            <label class="bar-menu"><i id="barMenu" class="fa-solid fa-bars"></i></label>
+                <ul id="menuUL" class="menu-horiz">
+                    <li><a class="menu-a-style" href="index copy.html"><i class="style-icon fa-solid fa-house-chimney"></i>INICIO</a></li>
+                    <li><a class="menu-a-style" href="catalogo.html"><i class="style-icon fa-solid fa-car-rear"></i>MOTOS</a></li>
+                    <li><a class="menu-a-style" href="formulario.html"><i class="style-icon fa-solid fa-book-open"></i>FORMULARIO</a></li>
+                    <li><a class="menu-a-style" href="index.html"><i class="style-icon fa-solid fa-handshake-angle"></i>CATALOGO</a></li>
+                </ul>
+        </nav>
+ </div>
+
+    <div class="main-content">
+        <div class="form-title">
+            <div class="form-box">
+                <br>
+ <br>
+ <br>
+                <form class="form-registro">
+                   
+                    <form class="form">
+                        <h1>REGISTRO WEB</h1>
+                         <b><label>NOMBRE:</label></b>
+                         <input type="text" class="name entry " placeholder="Digite su NOMBRE"/>
+                         <b><label>APELLIDO:</label></b> 
+                         <input type="text" class="email entry" placeholder="Digite su APELLIDO"/>
+                         <b><label>Tipo de Documento</label></b>
+                    <select name="Servicio"> 
+                        <option value="CC">CC</option>
+                        <option value="TE">TE</option>
+                        <option value="CE">CE</option>
+                        <option value="NIT">NIT</option>
+                        <option value="PAS">PAS</option>
+                    </select> <br> <br>
+                        <b><label>DOCUMENTO DE IDENTIDAD:</label></b> 
+                        <input type="text" class="email entry" placeholder="Digite su NUMERO DE IDENTIDAD"/>
+                         <b><label>EDAD:</label></b> 
+                         <input type="number" class="name entry " placeholder="Digite su EDAD"/>
+                         <b><label>TIPO DE VEHICULO:</label></b> 
+                         <input type="text" class="email entry" placeholder="Digite EL TIPO DE VEHICULO"/>
+                         <b><label>FECHA DE COMPRA DEL VEHICULO:</label></b>
+                         <input type="date" class="email entry" placeholder="FECHA"/>
+                         <b><label>SELECIONE EL DIA DE LA CITA</label></b> <br> <br>
+                              <input type="checkbox" name="Lunes">Lunes<br>
+                              <input type="checkbox" name="Martes">Martes<br>
+                              <input type="checkbox" name="Miercoles">Miercoles<br>
+                              <input type="checkbox" name="Jueves">Jueves<br>
+                              <input type="checkbox" name="Viernes">Viernes<br>
+                              <input type="checkbox" name="Sabado">Sabado<br> <br>
+                         <b><label>HORA:</label></b>
+                         <input type="time" class="email entry" placeholder="HORA"/>
+                         <label>CONSESONARIO </label> <br> <br>
+                         <input type="radio" name="IPS Centro" value="IPS Ce">Las Aguitas<br>
+                         <input type="radio" name="IPS Agua Blanca" value="IPS AB">La Esmerlda<br>
+                         <input type="radio" name="IPS Cálamo" value="IPS Ca">Nueva Zelandia<br>
+                         <input type="radio" name="IPS Solarte" value="IPS So">Villa del Prado<br> <br>
+                 
+                         <b><label>MARCA DEL VEHICULO:</label></b><br><br>
+                         <select name="Servicio">
+                            <option value="Carina Mendez Solé">TOYOTA</option>
+                            <option value="Margarita Gonzalo Angulo">MAZDA</option>
+                            <option value="Remigio Varela Bárcena">CHEBROLET</option>
+                            <option value="Hernán Patiño Gilabert">NISAN</option>
+                            <option value="Daniela Vilalta Río">FORD</option>
+                        </select> <br> <br>
+                        <b><label>OTRA MARCA DE VEHICULO:</label></b>
+                         <input type="text" class="email entry" placeholder="marcas, TOYOTA,MAZDA,NISAN..." />
+                         <textarea class="message entry" placeholder="Sugerencias"></textarea> 
+                         <button class="submit entry" onclick="thanks()">VALIDAR CITA</button>
+                       </form>  
+                       <div class="shadow"></div>
+                     </div>
+                   <script src="app.js"></script>
+                   
+                   
+                    
+            
+            </div>    
+        </div>
+    </div>
+
+
+</body>
+<script src="js/script.js"></script>
+</html>
