@@ -14,43 +14,13 @@ body{
     margin-bottom: 3%;
 }
 
-h1 {
-    color: rgb(255, 136, 0);
-    text-align: center;
-    font-family: 'aldrich';
-    font-size: 4em;
-
-}
-h2{
-    text-align: center;
-}
-p {
-    font-size: 18px;;
-    text-align: center;
-}
-
-.PARRAFO2  {
-    font-size: 16px;
-
-}
-.prueba-fuente {
-margin-top: 100px;
-font-size: 32px;
-
-}
-
-.font-parrafo{
-    font-size: .5em;
-}
-
-
 h2{
     text-align: center;
 }
 .main-nav{
     width: 100%;
     height: 55px;
-    background-color: rgb(255, 72, 0);
+    background-color: black;
     font-size: 1.5em;
 }
 
@@ -107,7 +77,7 @@ table{
 th{
     border: 1px solid black;
     text-align: center;
-    background-image:image-set(img src="IMG/descarga3.png")
+    background-color: rgb(164, 220, 202);
 }
 
 td{
@@ -134,7 +104,7 @@ img{
     .menu-responsive {
         display: flex;
         flex-direction: column;
-        background: rgba(255, 77, 0, 0.8);
+        background: rgb(64,64,64,.8);
         margin: 0;
         padding: 0;
     }
@@ -151,16 +121,3 @@ img{
         display: none;
     }
 }
-/* aldrich-regular - latin */
-@font-face {
-    font-family: 'Aldrich';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/aldrich-v17-latin-regular.eot'); /* IE9 Compat Modes */
-    src: local(''),
-         url('../fonts/aldrich-v17-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('../fonts/aldrich-v17-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-         url('../fonts/aldrich-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/aldrich-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-         url('../fonts/aldrich-v17-latin-regular.svg#Aldrich') format('svg'); /* Legacy iOS */
-  }
