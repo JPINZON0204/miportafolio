@@ -14,7 +14,7 @@ p{
 .main-content{
     background: rgb(239, 238, 244);
     width: 100%;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -146,7 +146,7 @@ img{
     background-color: rgb(255, 255, 255);
     background-size: cover;
     background-attachment: fixed;
-    height:700px;
+    height:900px;
 
 }
 .title{
@@ -171,8 +171,8 @@ img{
   
  
   .name { 
-    background-color: #DF1B76;
-    border-bottom: 5px solid #B2175F;
+    background-color: #ff5900;
+    border-bottom: 5px solid #c83900;
     color: white;
     width:300px;
   }
@@ -180,33 +180,30 @@ img{
     color: white;
     font-size: 20px;
 }
-
-
-}
     .name:hover{
-        background-color: #DF1B76;
-        border-bottom: 5px solid #B2175F;
+        background-color: #ff5900;
+        border-bottom: 5px solid #c83900;
         height:30px;
         width:400px;
       }
     
       .email {
-        background-color: #7239C1;  
-        border-bottom: 5px solid #502789;
+        background-color: #ff5900;  
+        border-bottom: 5px solid #c83900;
         height:50px;
         width:300px;
         
       }
       .email:hover{
-        background-color: #7239C1;  
-        border-bottom: 5px solid #502789;
+        background-color: #ff5900;  
+        border-bottom: 5px solid #c83900;
         height:30px;
         width:380px;
        
       }
       .message {   
-        background-color: rgb(230, 108, 15);
-        border-bottom: 5px solid rgb(195, 35, 17);
+        background-color: #ff5900db;
+        border-bottom: 5px solid #b03301;
         overflow: hidden;
         height: 100px;  
         width:300px;
@@ -223,7 +220,7 @@ img{
         padding:10px;
         background-color: #2DD7BB;  
         border: none;
-        border-bottom: 5px solid #CB64B2; 
+        border-bottom: 5px solid #fd0000; 
         transform: translateY(-120px); 
     
       }
@@ -382,9 +379,6 @@ color: rgb(128, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
-
-
-
 .box-menu{
   background-color: #434242;
   width: 100%;
@@ -394,7 +388,14 @@ color: rgb(128, 0, 0);
   justify-content: left;
   align-items: center;
 } 
-
+.select-style {
+  margin-bottom: 20px;
+}
+.text-doc-style {
+  margin-top: 18px; 
+  padding-top: 18px;
+  font-weight: 900;
+}
 @media only screen and (max-width: 700px){
     nav {
         position: fixed;
@@ -439,4 +440,4 @@ color: rgb(128, 0, 0);
          url('../fonts/aldrich-v17-latin-regular.woff') format('woff'), /* Modern Browsers */
          url('../fonts/aldrich-v17-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
          url('../fonts/aldrich-v17-latin-regular.svg#Aldrich') format('svg'); /* Legacy iOS */
-  }
+}
